@@ -1,12 +1,4 @@
-let numero = prompt("digite un numero: ");
+let resistencia  = Number(prompt("digite la resistencia  del circuito "));
+let corriente  = Number(prompt("digite la corriente del circuito "));
 
-let resultado = ImparPar(numero);
-alert("el numero "+numero+ " es " +resultado);
-
-function ImparPar(numero){
-    if(numero % 2 == 0){
-        return "Par";
-    }else {
-        return "Impar";
-    }
-}
+alert("el voltaje del circuito es " + corriete * resistencia)
