@@ -1,12 +1,5 @@
-let  suma = num1 + num2;
-let diferencia = num1 - num2;
-let productividad = num1 * num2;
-let divicion = num1 / num2;
+let nombre = prompt("digite el nombre del articulo");
+let precio = prompt("digite el precio del articulo");
+let cantidad = prompt("digite la cantidad del articulo");
 
-if (num1 > num2){
-    console.log("el mayor es: " + num1 + "y la suma es: " + suma + " su diferencia es : " + diferencia);
-}else if (num1 > num2){
-    console.log("el mayor es: " + num1 + "y la suma es: " + suma + " su diferencia es : " + diferencia);
-}else{
-    console.log("uno de los numeros es igual a otro");
-}
+alert("el precio que debe pagar es: " + cantidad * precio);
