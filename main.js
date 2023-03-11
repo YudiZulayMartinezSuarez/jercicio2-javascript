@@ -1,22 +1,12 @@
-let nombre1 = prompt("didite el 1 nombre: ");
-let edad1 = Number(prompt("digite la 1 edad:  "));
+let  suma = num1 + num2;
+let diferencia = num1 - num2;
+let productividad = num1 * num2;
+let divicion = num1 / num2;
 
-let nombre2 = prompt("didite el 2 nombre: ");
-let edad2 = Number(prompt("digite la 2 edad:  "));
-
-let nombre3 = prompt("didite el 3 nombre: ");
-let edad3 = Number(prompt("digite la 3 edad:  "));
-
-let maximo = Math.max(edad1, edad2, edad3);
-
-if(maximo == edad1){
-    alert("el mayor es: nombre1");
-}
-
-if(maximo == edad2){
-    alert("el mayor es: nombre2");
-}
-
-if(maximo == edad3){
-    alert("el mayor es: nombre3");
+if (num1 > num2){
+    console.log("el mayor es: " + num1 + "y la suma es: " + suma + " su diferencia es : " + diferencia);
+}else if (num1 > num2){
+    console.log("el mayor es: " + num1 + "y la suma es: " + suma + " su diferencia es : " + diferencia);
+}else{
+    console.log("uno de los numeros es igual a otro");
 }
