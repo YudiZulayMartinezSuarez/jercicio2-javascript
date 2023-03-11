@@ -1,5 +1,6 @@
-let nombre = prompt("digite el nombre del articulo");
-let precio = prompt("digite el precio del articulo");
-let cantidad = prompt("digite la cantidad del articulo");
+let lado = Number(prompt("digite la medida de uno de los do lados del cuadrado: "));
+alert("el perimetro del cuadrado es: " + lado *4);
 
-alert("el precio que debe pagar es: " + cantidad * precio);
+let largo = Number(prompt("digite el largo del rectangulo: "));
+let ancho = Number(prompt("digite el ancho del rectangulo: "));
+alert("el area del rectangulo es : " + largo * ancho );
